@@ -1,0 +1,89 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="C:/Users/Alex/Documents/Github/UX_UI_HW_18/Untitled-1.css">
+</head>
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Hero image CSS */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.heroImg .content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #373738;
+    padding: 20px; 
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px; 
+}
+
+footer li {
+    padding: 10px; 
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row; 
+}
+
+.flexContainer > div {
+    width: 33%;
+    margin: 10px; 
+    padding: 10px; 
+}
+
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+}
+
+.workGrid > div {
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexContainer > div {
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr; 
+    }
+}
