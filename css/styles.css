@@ -1,87 +1,33 @@
-
-
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+.navbar {
+    background-color: #6c757d;
 }
 
-nav {
-    width: 73%;
-    padding: 1%;
+.navbar-brand {
+    color: #ffffff;
 }
 
-nav ul {
-    width: 50%;
-    margin-left: auto;
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
 }
 
-/* Hero image CSS */
-.heroImg {
-    height: 600px;
-    padding: 25px;
+.card {
+    margin: 2rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
-.heroImg .content {
-    width: 500px;
-    margin: 0 auto;
+.card-body {
+    padding: 2rem;
 }
 
-/* Footer CSS */
-footer {
-    background-color: #373738;
-    padding: 20px; 
-}
-
-footer ul {
-    display: inline-block;
-    vertical-align: top;
-    padding: 20px; 
-}
-
-footer li {
-    padding: 10px; 
-}
-
-
-.flexContainer {
-    display: flex;
-    flex-direction: row; 
-}
-
-.flexContainer > div {
-    width: 33%;
-    margin: 10px; 
-    padding: 10px; 
-}
-
-
-.workGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: auto auto; 
-}
-
-.workGrid > div {
-    
-}
-
-
-@media only screen and (max-width: 600px) {
-    .flexContainer {
-        flex-direction: column;
-    }
-
-    .flexContainer > div {
-        width: 100%;
-    }
-
-    .workGrid {
-        grid-template-columns: 1fr; 
-    }
+.card-title {
+    color: #6c757d;
+    font-size: 1.5rem;
 }
